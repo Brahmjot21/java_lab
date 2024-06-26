@@ -13,10 +13,8 @@ class Texteditor extends JFrame implements ActionListener {
         f = new JFrame("editor");
 
         try {
-            // Set metal look and feel
             UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
 
-            // Set theme to ocean
             MetalLookAndFeel.setCurrentTheme(new OceanTheme());
         }
         catch (Exception e) {
